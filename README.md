@@ -1,3 +1,3 @@
 # school-iot-project
 
-you know
+Folder "School IoT Project" is the Unity part and folder "mbed" is the microcontroller portion.

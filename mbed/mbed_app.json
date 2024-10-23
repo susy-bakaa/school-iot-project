@@ -1,0 +1,26 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"Fortnite-Battlepass\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"ninjafeet69\""
+        },
+        "esp-rx-pin": {
+            "help": "ESP8266 module Tx pin, Mc Rx PB_7 or PA_10",
+            "value": "PB_7"
+        },
+        "esp-tx-pin": {
+            "help": "ESP8266 module Rx pin, Mc Tx PB_6 or PA_9",
+            "value": "PB_6"
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "esp8266.provide-default" : false
+        }
+    }
+}
